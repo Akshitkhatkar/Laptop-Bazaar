@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+<style>
+  h2{
+     text-align:center;
+	 font-family: 'Lobster', cursive;
+	 font-size:30px;
+   } 
+  body{
+     background-color:#eee; 
+   }
+  #header{
+     position:fixed;
+   font-family: 'Hanalei Fill', cursive;
+   display: flex;
+   width: 100%;
+   margin:-10px -10px -10px -10px;
+   background-color:black;
+   color:white;
+  }
+  #header-img{
+ margin:-10px 0px -10px 0px;
+   width:80px;
+   height:80px;
+   display:inline-block;
+   display: flex;
+  }
+  #head{
+  margin:-10px 0px -10px 0px;
+  display:inline-block;
+  font-size:48px;
+  display: flex;
+  color:white;
+  }
+  #nav-bar{
+  display:inline-block;
+   margin:-10px 0px -10px 540px;
+   font-size: 25px;
+   padding:-10px -10px -10px -10px;
+   display: flex;
+   color:white;
+  }
+  #abc {
+  list-style: none;
+}
+a {
+  color:white;
+  text-decoration: none;
+  
+}
+#form{
+  text-align:center;
+}
+ #video{
+  margin: 20px 20px 20px 540px;
+  border-color:black;
+  border-radius: 10px;
+  border-style:solid;
+ } 
+ #vid{
+  box-shadow:0 10px 20px rgba(0,0,0,0.19);
+ }
+ #email{
+   padding:10px 10px 10px 10px;
+   border-color:black;
+  border-radius: 10px;
+  border-style:solid;
+ } 
+ #reg{
+   background-color:;
+   box-shadow:0 10px 20px rgba(0,0,0,0.19);
+ } 
+.btn {
+  color:white;
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 10px;
+  background-color:black;
+  cursor: pointer;
+}
+
+  #features{
+   display:flex;
+   height: 600px;
+   justify-content:center;
+align-item:center;   
+padding:15px;
+ margin:5px;  
+box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+  }
+  #f1{
+  background-color:#eee;
+    width: 50%;
+    height: 50%;
+	border-color:black;
+  border-radius: 10px;
+  border-style:solid;
+  
+  }
+  #f2{
+   background-color:#eee;
+    width: 50%;
+    height: 50%;
+	border-color:black;
+  border-radius: 10px;
+  border-style:solid;
+  
+  }
+  #f3{
+   background-color: #eee;
+    width: 50%;
+    height: 50%;
+	border-color:black;
+  border-radius: 10px;
+  border-style:solid;
+  
+  }
+  .fl{
+    font-size:20px;
+	font-family: 'Bitter', serif;
+	align-item:center;
+	
+  }
+  footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    
+    li {
+      padding: 0 10px;
+	  list-style:none;
+    }
+  }
+  
+  span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+}
+
+@media(max-width:600px)
+{
+  #header{
+     position:absolute;
+	 }
+}
+  
+</style>
+</head>
+<body>
+<header id="header">
+  <img src="https://image.shutterstock.com/z/stock-vector--laptop-circle-swoosh-icon-logo-336320561.jpg" id="header-img" />
+  <p id="head">Laptop Bazaar</p>
+  
+ <nav id="nav-bar">
+  <ul>
+  <li id="abc" style="display:inline-block;"><a href="#features" class="nav-link">Features</a><p style="display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></li>
+  <li id="abc" style="display:inline-block;"><a href="#video" class="nav-link">Video</a><p style="display:inline-block;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></li>
+  <li id="abc" style="display:inline-block;"><a href="#register" class="nav-link">Register</a></li>
+  </ul>
+ </nav>
+ </header>
+ <br/><br/>
+ <div id="vid">
+ <br/><br/><br/><br/><br/>
+ <h2>Laptop Recommendations</h2>
+ <iframe id="video" width="420" height="315"
+ src="https://www.youtube.com/embed/nJ539VsNq2s?ecver=2?controls=1">
+</iframe>
+ </div>
+ <hr/>
+ <div id="reg">
+ <h2 id="register">Enter your Email ID to Register</h2>
+ <form id="form" action="https://www.freecodecamp.com/email-submit">
+ <input type="email" id="email" placeholder="Please Enter your Email Id" required /><br/><br/><br/>
+ <input id="submit" type="submit" value="Get Started" class="btn"></input>
+ </form>
+ </div>
+ <br/><br/>
+ <hr/>
+ <div id="features">
+  <div id="f1"><h2><u>Fast Shipping</u> </h2>
+   <p class="fl">We make sure you recieve your Laptop within 5-10 days. We also provide free returns if you are not satisfied.</p>
+  </div>
+  <div id="f2"><h2><u>Quality Assurance</u></h2>
+  <p class="fl">For every purchase you make, we will ensure there are no damages or faults and we will check and test the Laptop before shipping.</p>
+  </div>
+  <div id="f3"><h2><u>Easy Payment Options</u></h2>
+  <p class="fl"><ul class="fl" ><li>No cost EMI starting</li><li>Cash on Delivery</li><li>Net banking & Credit/ Debit/ ATM card</li></ul></p>
+  </div>
+ </div>
+ <hr/>
+  <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2018, Original Laptop Baazar</span>
+  </footer>
+ </body>
+</html>
